@@ -1,14 +1,16 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
 export default function Home() {
   return (
     // Main container
     <div className="container mx-auto">
       {/* header section */}
-      <div>
-        <h4 className="display-4 fst-italic text-center">Todo List Mock Up</h4>
-        <p className="text-secondary text-center">
-          This lab teach you how to split react component(s)
-        </p>
-      </div>
+      {/**/ }
+
+      <Header />
+      <Header />
+      <Header />
 
       {/* tasks container */}
       <div style={{ maxWidth: "400px" }} className="mx-auto">
@@ -46,6 +48,7 @@ export default function Home() {
           copyright © 2023 Chayanin Suatap 12345678
         </p>
       </div>
+      <Footer name="Korn Sriwattana" var2='35'/>
     </div>
   );
 }
