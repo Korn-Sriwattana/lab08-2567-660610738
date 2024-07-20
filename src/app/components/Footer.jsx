@@ -2,11 +2,10 @@ import React from 'react'
 
 export default function Footer(props) {
   return (
-    <div>
-        <h4 className="display-4 fst-italic text-center">Todo List Mock Up</h4>
-        <p className="text-secondary text-center">
-          This lab teach you how to split react component(s)
-        </p>
-      </div>
+    <div className="mt-3">
+    <p className="text-secondary text-center">
+      copyright © {props.year} {props.fullName} {props.studentId}
+    </p>
+    </div>
   )
 }
