@@ -6,7 +6,7 @@
 
 ชื่อ-สกุล : กรณ์ ศรีวัฒนะ
 
-Vercel URL :
+Vercel URL : https://lab08-2567-660610738.vercel.app/
 
 ---
 
